@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{47F62BF3-44A6-4BCD-90DE-F89762B1A696}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WSL.IpMapping", "src\WSL.IpMapping\WSL.IpMapping.csproj", "{620A68B7-1EC2-42B4-9BAB-9366FCB51CEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7FC29BF0-68B5-46A4-85B0-00C1DF299215}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{620A68B7-1EC2-42B4-9BAB-9366FCB51CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620A68B7-1EC2-42B4-9BAB-9366FCB51CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620A68B7-1EC2-42B4-9BAB-9366FCB51CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620A68B7-1EC2-42B4-9BAB-9366FCB51CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{620A68B7-1EC2-42B4-9BAB-9366FCB51CEA} = {47F62BF3-44A6-4BCD-90DE-F89762B1A696}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32A135EF-0FD8-423B-B7D2-9F223E0E550F}
+	EndGlobalSection
+EndGlobal
